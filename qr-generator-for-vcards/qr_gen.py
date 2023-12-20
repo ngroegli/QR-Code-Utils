@@ -1,6 +1,5 @@
 import qrcode
 from PIL import Image
-import base64
 
 def generate_qr_with_image_for_vcard(data, image_path, output_path):
     qr = qrcode.QRCode(
